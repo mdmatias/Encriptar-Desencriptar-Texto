@@ -58,16 +58,124 @@ background-color: #f3f5fc;
     top:77%
 }
 
-.texto-recomendacion {
+.recomendacion p {
     color: #495057;
     font-family: "inter";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 150;
     opacity: 0.9;
     flex: none;
     flex-grow: 0;
-    order: 1; /*https://developer.mozilla.org/es/docs/Web/CSS/order*/
+    order: 1; /*https://developer.mozilla.org/es/docs/Web/CSS/order */
+    line-height: 150%;
+} 
+
+/*Estilo para las propiedades en comun de ambos botones (Encriptar/Desencriptar)*/
+.botones{
+    display: flex; /*contenedor flexible para poder colocar 1 boton al lado del otro*/
+    flex-direction: row; /*para colocar 1 al lado del otro en la misma fila*/
+    align-items: flex-start; /*alinea los botones al inicio del contenedor*/   
+    padding: 1% 0; /*padding del 1% hacia arriba y abajo para que no se pegue con el contenedor del elemento div que contiene la recomendacion*/
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 80%;    
+}
+
+/*Estilo para el boton Encriptar*/
+.boton-encriptar{
+    align-items: center; /**/
+    justify-content: center; /*contenido (texto) alineado al centro*/
+    gap: 8px; /*espaciamiento entre items de 8 pixels*/
+    width: 328px;
+    height: 67px;
+    background-color: #0A3871;
+    color: white;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: 'inter';
+    line-height: 19px;
+    text-align: center;
+
+}
+
+.boton-desencriptar{
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0a3871;
+}
+
+/* .boton-encriptar:hover, .boton-desencriptar:hover{
+    width: 360px;
+} */
+
+.container-img{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    left: 60%;
+    top: 5%;
+    background-color: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08); /*sombra del contenido (img muñeco y texto)*/
+    border-radius: 32px;
+}
+
+.container-img img{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 25%;
+}
+
+.msg-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    gap: 16px;
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    text-align: center;
+}
+
+.msg-img h2{
+    color: #343A40;
+    width: 336px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.msg-img p{
+    color: #495057;
+    line-height: 150%;
+    width: 336px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
 }
 
