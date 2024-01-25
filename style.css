@@ -1,7 +1,73 @@
-font-family: 'Oswald', sans-serif;
-font-family: 'Rubik Burned', system-ui;
+/*Estilo para el HTML*/
+*{
+    margin: 0;
+    padding: 0;
+}
 
+/*Estilo para el elemento div principal que contiene las secciones y elementos */
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #f3f5fc;
+}
 
+/*Estilo para la imagen logo de alura "letra A" (margenes de 40 pixels)*/
+.logo-alura{
+    margin:40px;
+}
 
-font-family: 'Oswald', sans-serif;
-font-family: 'Rubik Burned', system-ui;
+/*Estilo para el elemento textarea (ancho y alto del elemento, sin borde, tamaño de letra, color de fondo del textarea, posicion absoluta, tipo de fuente, estilo de fuente)*/
+.area-texto{
+position: absolute;
+width: 45%;
+height: 60%;
+left: 10%;
+top: 15%;
+border: none;
+font-family: 'Inter';
+font-style:normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+background-color: #f3f5fc;
+/* resize: none; quitar redimensionado al textarea */
+}
+
+/*Estilo para cambiar el color de la propiedad placeholder del textarea*/
+.area-texto::placeholder{
+    color:#0A3871;
+}
+
+/* Estilo para que cuando el elemento textarea esta activo o en focus, desaparezca el borde */
+.area-texto:active , .area-texto:focus{
+    border: none;
+    outline: none;
+}
+
+/*Estilo para el div class recomendacion (texto ubicado debajo del textarea)*/
+.recomendacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top:77%
+}
+
+.texto-recomendacion {
+    color: #495057;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150;
+    opacity: 0.9;
+    flex: none;
+    flex-grow: 0;
+    order: 1; /*https://developer.mozilla.org/es/docs/Web/CSS/order*/
+}
+
