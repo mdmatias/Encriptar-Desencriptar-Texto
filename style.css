@@ -131,13 +131,6 @@ resize: none; /* resize: none; quitar redimensionado al textarea */
     border-radius: 32px;
 }
 
-/* .area-texto-img{
-    display: inline-block;
-    height: 90%;
-    width: 90%; 
-    display: none;
-} */
-
 .container-img img{
     position: absolute;
     width: 70%;
@@ -145,8 +138,7 @@ resize: none; /* resize: none; quitar redimensionado al textarea */
     top: 20%;
 }
 
-/* .boton-copiar{
-    display: flex;
+.boton-copiar{
     position: absolute;
     align-items: center;
     align-content: center;
@@ -162,7 +154,7 @@ resize: none; /* resize: none; quitar redimensionado al textarea */
     text-align: center;
     color: #0a3871;
     display: none;
-} */
+} 
 
 .msg-img{
     display: inline-block;
