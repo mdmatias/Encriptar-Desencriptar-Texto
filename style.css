@@ -27,6 +27,7 @@ height: 60%;
 left: 10%;
 top: 15%;
 border: none;
+color:#0A3871;
 font-family: 'Inter';
 font-style:normal;
 font-weight: 400;
@@ -135,14 +136,10 @@ resize: none; /* resize: none; quitar redimensionado al textarea */
     position: absolute;
     width: 70%;
     height: 33%;
-    top: 20%;
 }
 
 .boton-copiar{
     position: absolute;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
     top: 85%;
     width: 40%;
     height: 67px;
@@ -153,7 +150,7 @@ resize: none; /* resize: none; quitar redimensionado al textarea */
     font-size: 16px;
     text-align: center;
     color: #0a3871;
-    display: none;
+    /* display: none; */
 } 
 
 .msg-img{
@@ -163,7 +160,7 @@ resize: none; /* resize: none; quitar redimensionado al textarea */
     padding: 1%;
     position: relative;
     width: 25%;
-    top: 44%;
+    top: 22%;
     text-align: center;
     left:62%;
 }
