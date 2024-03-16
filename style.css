@@ -150,7 +150,7 @@ resize: none; /* resize: none; quitar redimensionado al textarea */
     font-size: 16px;
     text-align: center;
     color: #0a3871;
-    /* display: none; */
+    display: none; 
 } 
 
 .msg-img{
