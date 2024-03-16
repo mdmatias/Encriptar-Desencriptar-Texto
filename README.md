@@ -34,5 +34,5 @@ Extras:
   <li>Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.</li>
 </ul>
 
-<ul><li> <h2>En progreso...</h2></li></ul>
-<p align="center"><img src="https://media4.giphy.com/media/3y0oCOkdKKRi0/giphy.gif?cid=ecf05e47r9w576xmhu1rldc2cbyi5yqebxf5ipsxf5xblqjg&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="img-loading" width="" height=""></p>
+<ul><li> <h2>Finalizado</h2></li></ul>
+<p align="center"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmo3amZjeGJoenhzMmhjNmFiYTN5bHNnbW1ub2NsdzBsMXFxNnRnayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1Lc1Kn9hImgpx5Re/giphy.gif" alt="img-fin" width="" height=""></p>
